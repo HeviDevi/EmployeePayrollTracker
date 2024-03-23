@@ -33,7 +33,7 @@ const displayAverageSalary = function(employeesArray) {
       {totalSalary += employeesArray[i].salary}
       averageSalary = totalSalary/employeesArray.length;
 
-    console.log(`The average salary of our ${employeesArray.length} employees is ${averageSalary.toLocaleString(`en-US`, {style: `currency`, currency : `USD`})} Cha-Ching!!`)
+    console.log(`The average salary of our ${employeesArray.length} employees is ${averageSalary.toLocaleString(`en-US`, {style: `currency`, currency : `USD`})}. Cha-Ching!!`)
 
   
 }
@@ -42,7 +42,7 @@ const getRandomEmployee = function(employeesArray) {
 
   
 randomEmployeeSelection = employeesArray[Math.floor(Math.random() * employeesArray.length)];
-console.log(`Congratulations ${randomEmployeeSelection.firstName} ${randomEmployeeSelection.lastName} you have been randomly selected for a permanant vacation in Upstate New York, enjoy your new life! `)
+console.log(`Congratulations ${randomEmployeeSelection.firstName} ${randomEmployeeSelection.lastName} you have been randomly selected for a permanent vacation in Upstate New York, enjoy your new life! `)
  
 
 }
