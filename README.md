@@ -9,3 +9,6 @@ The user should click the "Add Employee" button. They will be asked to confirm w
 ## Credits
 
 Credits go to UCF and edX for the starter code. 
+<br>
+<br>
+![](/assets/Employye_Payroll_Screenshot.png)
