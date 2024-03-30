@@ -12,7 +12,11 @@ const collectEmployees = function() {
   let addfirstName = window.prompt(`What is their first name?`);
   let addlastName = window.prompt(`What is their last name?`);
   let addsalary = parseFloat(window.prompt(`What is their annual salary?`));
-
+ 
+  if(isNaN(addsalary)){
+  window.prompt(`Please enter ONLY a number in the salary box`);
+  return false;
+ }
   let Employee = {
     firstName : addfirstName,
     lastName: addlastName,
@@ -20,8 +24,10 @@ const collectEmployees = function() {
                   };
   employeesArray.push(Employee);
   confirmNewEmployee = window.confirm('Would you like to add new memeber to the team?');
-  
+
     };
+
+
     return employeesArray
    
 }
